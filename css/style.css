@@ -1,0 +1,31 @@
+
+
+*{
+    background-color: coral;
+}
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.logo{
+    padding: 1.5em;
+    background-color: aquamarine;
+}
+img{
+    width: 20vw;
+    background-color: aquamarine;
+}
+.menu{
+    padding: 1em;
+    background-color: aquamarine;
+    
+}
+.menu>ul{
+    list-style: none;
+}
