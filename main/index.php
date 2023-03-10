@@ -13,12 +13,23 @@
             <img src="../images/logo.png" alt="">
         </div>
         <div class="menu">
-            <ul>
-                <li>o nas</li>
-                <li>oferta</li>
-                <li>kontakt</li>
+            <ul class="list">
+                <li><a href="#">about</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">offer</a></li>
             </ul>
         </div>
     </header>
+    <main>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>

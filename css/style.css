@@ -1,3 +1,7 @@
+:root {
+    --background: aquamarine;
+}
+
 
 
 *{
@@ -11,21 +15,34 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: var(--background);
 }
 .logo{
     padding: 1.5em;
-    background-color: aquamarine;
+    background-color: var(--background);
 }
 img{
     width: 20vw;
-    background-color: aquamarine;
+    background-color: var(--background);
 }
 .menu{
-    padding: 1em;
-    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    background-color: var(--background);
+}
+.list{
+    padding: 0;
+    list-style: none;
     
 }
-.menu>ul{
-    list-style: none;
+.list li {
+    padding: 2em;
+    display: inline-block;
+}
+.list li a{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
